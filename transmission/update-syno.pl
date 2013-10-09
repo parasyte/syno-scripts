@@ -28,7 +28,7 @@
 # (C) 2010 by Gerd W. Naschenweng (Gerd@Naschenweng.info / http://www.naschenweng.info)
 
 ### Logging: Adjust the path below to the base-directory where you place the script (if you don't need logging, comment out)
-use lib qw(/var/packages/transmission/scripts/syno-media-indexer);
+use lib qw(/var/packages/transmission/scripts);
 use Logging::Log;
 
 @include_files = ("ASF","AVI","DIVX","IMG","ISO","M1V","M2P","M2T","M2TS","M2V",
